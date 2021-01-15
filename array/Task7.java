@@ -1,4 +1,4 @@
-package by.epam.training2.array;
+package by.epam.training.array;
 
 /**
  * Даны действительные числа a1, a2, ... an. Найти max(a1 + a2n, a2 + a2n-1,

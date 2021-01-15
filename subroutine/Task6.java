@@ -1,4 +1,4 @@
-package by.epam.training2.subroutine;
+package by.epam.training.subroutine;
 
 /**
  * Написать метод (методы), проверяющий, являются ли данные три числа взаимно простыми.

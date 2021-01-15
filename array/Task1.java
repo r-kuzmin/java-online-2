@@ -1,4 +1,4 @@
-package by.epam.training2.array;
+package by.epam.training.array;
 
 /**
  * В массив A [N] занесены натуральные числа. Найти сумму тех элементов, которые

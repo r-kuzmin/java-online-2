@@ -1,4 +1,4 @@
-package by.epam.training2.subroutine;
+package by.epam.training.subroutine;
 
 /**
  * Из заданного числа вычли сумму его цифр. Из результата вновь вычли сумму его

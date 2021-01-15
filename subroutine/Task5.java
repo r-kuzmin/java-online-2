@@ -1,4 +1,4 @@
-package by.epam.training2.subroutine;
+package by.epam.training.subroutine;
 
 /**
  * Составить программу, которая в массиве A[N] находит второе по величине число

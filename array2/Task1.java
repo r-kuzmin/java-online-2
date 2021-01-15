@@ -1,4 +1,4 @@
-package by.epam.training2.array2;
+package by.epam.training.array2;
 
 /**
  * Дана матрица. Вывести на экран все нечетные столбцы, у которых первый элемент

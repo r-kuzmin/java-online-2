@@ -1,4 +1,4 @@
-package by.epam.training2.array2;
+package by.epam.training.array2;
 
 /**
  * Задана матрица неотрицательных чисел. Посчитать сумму элементов в каждом

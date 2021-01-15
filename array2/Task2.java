@@ -1,4 +1,4 @@
-package by.epam.training2.array2;
+package by.epam.training.array2;
 
 /**
  * Дана квадратная матрица. Вывести на экран элементы, стоящие на диагонали.

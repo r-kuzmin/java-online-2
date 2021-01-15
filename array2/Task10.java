@@ -1,4 +1,4 @@
-package by.epam.training2.array2;
+package by.epam.training.array2;
 
 /**
  * Найти положительные элементы главной диагонали квадратной матрицы.

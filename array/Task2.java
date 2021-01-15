@@ -1,4 +1,4 @@
-package by.epam.training2.array;
+package by.epam.training.array;
 
 import java.util.Arrays;
 

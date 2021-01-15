@@ -1,4 +1,4 @@
-package by.epam.training2.array;
+package by.epam.training.array;
 
 /**
  * Задана последовательность N вещественных чисел. Вычислить сумму чисел,

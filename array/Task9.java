@@ -1,4 +1,4 @@
-package by.epam.training2.array;
+package by.epam.training.array;
 
 /**
  * В массиве целых чисел с количеством элементов n найти наиболее часто

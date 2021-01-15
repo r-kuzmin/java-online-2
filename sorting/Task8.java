@@ -1,4 +1,4 @@
-package by.epam.training2.sorting;
+package by.epam.training.sorting;
 
 /**
  * Даны дроби P/Q (p, q - натуральные). Составить программу, которая приводит

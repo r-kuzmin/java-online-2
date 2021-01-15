@@ -1,4 +1,4 @@
-package by.epam.training2.subroutine;
+package by.epam.training.subroutine;
 
 /**
  * Задан массив D. Определить следующие суммы: D[l] + D[2] + D[3]; D[3] + D[4] +

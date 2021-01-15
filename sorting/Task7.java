@@ -1,4 +1,4 @@
-package by.epam.training2.sorting;
+package by.epam.training.sorting;
 
 /**
  * Пусть даны две неубывающие последовательности действительных чисел. Требуется

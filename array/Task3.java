@@ -1,4 +1,4 @@
-package by.epam.training2.array;
+package by.epam.training.array;
 
 /**
  * Дан массив действительных чисел, размерность которого N. Подсчитать, сколько

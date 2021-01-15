@@ -1,4 +1,4 @@
-package by.epam.training2.subroutine;
+package by.epam.training.subroutine;
 
 /**
  * Даны числа X, Y, Z, Т — длины сторон четырехугольника. Написать метод

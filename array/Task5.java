@@ -1,4 +1,4 @@
-package by.epam.training2.array;
+package by.epam.training.array;
 
 /**
  * Даны целые числа а1 ,а2 ,..., аn . Вывести на печать только те числа, для
