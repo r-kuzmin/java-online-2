@@ -5,13 +5,13 @@ package by.epam.training.array;
  * которых аi > i.
  */
 public class Task5 {
-    public static void main(String[] args) {
-        int[] array = new int[] {-5, -2, 0, 1, 3, 7, 9, 12};
+	public static void main(String[] args) {
+		int[] array = new int[] { -5, -2, 0, 1, 3, 7, 9, 12 };
 
-        for (int i = 1; i <= array.length; i++) {
-            if (array[i-1] > i) {
-                System.out.println("a[" + i + "] = " + array[i-1]);
-            }
-        }
-    }
+		for (int i = 1; i <= array.length; i++) {
+			if (array[i - 1] > i) {
+				System.out.println("a[" + i + "] = " + array[i - 1]);
+			}
+		}
+	}
 }

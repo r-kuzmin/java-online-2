@@ -10,7 +10,6 @@ public class Task4 {
     public static void main(String[] args) {
         double[] array = new double[] { -77.45, -100.1, -30.0, 0, 0, 0.001, 1, 2, 33.5 };
 
-        double temp;
         int iMin = 0;
         int iMax = 0;
 
@@ -22,7 +21,7 @@ public class Task4 {
             }
         }
 
-        temp = array[iMin];
+        double temp = array[iMin];
         array[iMin] = array[iMax];
         array[iMax] = temp;
 

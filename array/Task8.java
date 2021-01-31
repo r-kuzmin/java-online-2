@@ -8,31 +8,29 @@ import java.util.Arrays;
  * ..., an).
  */
 public class Task8 {
-    public static void main(String[] args) {
-        int[] array = new int[] { -1, 5, 17, 0, -2, 56, -2, 9 };
-        int min; // Минимальный элемент исходного массива.
-        int len; // Длина массива-результата.
-        int[] result;
+	public static void main(String[] args) {
+		int[] array = new int[] { -1, 5, 17, 0, -2, 56, -2, 9 };
 
-        min = Integer.MAX_VALUE;
-        len = array.length;
-        for (int i : array) {
-            if (i < min) {
-                min = i;
-                len = array.length - 1;
-            } else if (i == min) {
-                len--;
-            }
-        }
+		int min = array[0]; // Минимальный элемент исходного массива.
+		int len = array.length; // Длина массива-результата.
+		
+		for (int i : array) {
+			if (i < min) {
+				min = i;
+				len = array.length - 1;
+			} else if (i == min) {
+				len--;
+			}
+		}
 
-        result = new int[len];
-        for (int i = 0, j = 0; i < array.length; i++) {
-            if (array[i] != min) {
-                result[j] = array[i];
-                j++;
-            }
-        }
+		int[] result = new int[len];
+		for (int i = 0, j = 0; i < array.length; i++) {
+			if (array[i] != min) {
+				result[j] = array[i];
+				j++;
+			}
+		}
 
-        System.out.println(Arrays.toString(result));
-    }
+		System.out.println(Arrays.toString(result));
+	}
 }

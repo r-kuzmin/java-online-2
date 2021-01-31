@@ -6,46 +6,42 @@ package by.epam.training.array;
  * них.
  */
 public class Task9 {
-    public static void main(String[] args) {
-        int[] array = new int[] { -1, 5, 17, 0, -2, 17, -2, 9 };
-        int result;
-        
-        if (array.length == 0) {
-            System.out.println("Длина исходного массива равна нулю.");
-            return;
-        } else {
-            result = Integer.MAX_VALUE;
-        }
+	public static void main(String[] args) {
+		int[] array = new int[] { -1, 5, 17, 0, -2, 17, -2, 9 };
 
-        // Количество различных значений в исходном массиве.
-        int[] counters = new int[array.length];
-        for (int i = 0; i < array.length; i++) {
-            int counter = 0;
-            for (int j = 0; j < array.length; j++) {
-                if (array[i] == array[j]) {
-                    counter++;
-                }
-            }
-            counters[i] = counter;
-        }
+		if (array.length == 0) {
+			System.out.println("Длина исходного массива равна нулю.");
+			return;
+		}
 
-        // Наиболее часто встречающееся значение.
-        int maxCounter = 0;
-        for (int i : counters) {
-            if (i > maxCounter) {
-                maxCounter = i;
-            }
-        }
+		// Количество различных значений в исходном массиве.
+		int[] counters = new int[array.length];
+		for (int i = 0; i < array.length; i++) {
+			int counter = 0;
+			for (int j = i; j < array.length; j++) {
+				if (array[i] == array[j]) {
+					counter++;
+				}
+			}
+			counters[i] = counter;
+		}
 
-        // Результат.
-        for (int i = 0; i < counters.length; i++) {
-            if (counters[i] == maxCounter) {
-                if (array[i] < result) {
-                    result = array[i];
-                }
-            }
-        }
+		// Наиболее часто встречающееся значение(я).
+		int maxCounter = 0;
+		for (int i : counters) {
+			if (i > maxCounter) {
+				maxCounter = i;
+			}
+		}
 
-        System.out.println(result);
-    }
+		// Результат - наименьшее из чисел.
+		int result = Integer.MAX_VALUE;
+		for (int i = 0; i < counters.length; i++) {
+			if (counters[i] == maxCounter && array[i] < result) {
+				result = array[i];
+			}
+		}
+
+		System.out.println(result);
+	}
 }

@@ -15,7 +15,7 @@ public class Task3 {
 
         for (int i = 0; i < array.length; i++) {
             int idx = i;
-            int max = Integer.MIN_VALUE;
+            int max = array[i];
             for (int j = i; j < array.length; j++) {
                 if (array[j] > max) {
                     max = array[j];

@@ -25,7 +25,7 @@ public class Task9 {
         }
 
         // Максимальная сумма и номер столбца.
-        int maxSumm = Integer.MIN_VALUE;
+        int maxSumm = 0;
         int column = 0;
 
         for (int i = 0; i < m; i++) {

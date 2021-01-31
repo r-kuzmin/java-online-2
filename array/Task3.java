@@ -6,7 +6,7 @@ package by.epam.training.array;
  */
 public class Task3 {
     public static void main(String[] args) {
-        double[] array = new double[] { -100.1, -77.45, -30.0, 0, 0, 0.001, 1, 2, 33.5 };
+        double[] array = { -100.1, -77.45, -30.0, 0, 0, 0.001, 1, 2, 33.5 };
 
         int neg = 0;
         int zero = 0;

@@ -37,7 +37,7 @@ public class Task2 {
             finish = true;
 
             // Находим минимальное значение.
-            int min = Integer.MAX_VALUE;
+            int min = array[0];
             for (int i : array) {
                 if (i < min) {
                     min = i;
